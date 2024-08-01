@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #666;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 100px;
+        }
+
+        .card {
+            cursor: pointer;
+            width: 325px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.6s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-20px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="image/Screenshot (195).png" alt="">
+            <div class="card-content">
+                <h1>UFO GAME</h1>
+                <p>Ini adalah projek game pertama saya saat awal masuk, projek ini dilakukan individu dan desain bebas untuk dikreasikan</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="image/Screenshot (196).png" alt="">
+            <div class="card-content">
+                <h1>UFO GAME</h1>
+                <p>Di atas adalah tampilan saat masuk ke dalam game ufo saya, terdiri dari 3 level dengan tingkat kesulitan yang dibedakan dengan banyaknya jumlah koin yang harus dicapai dalam waktu yang sedikit</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image/Screenshot (30).png" alt="">
+            <div class="card-content">
+                <h1>UFO GAME</h1>
+                <p>Ini adalah beberapa objek yang dipakai dalam game, untuk elemen objeknya sendiri diberikan oleh guru saya dan ada beberapa yang saya tambah dengan melakukan searching pada website khusus elemen unity</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
